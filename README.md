@@ -1,4 +1,4 @@
-用java 语言 + springboot + springmvc + mybatis + (maven/gradle) 搭成的框架
+用java 语言 + springboot + springmvc + (maven/gradle) 搭成的框架
 
 1.用maven启动命令是
 	mvn spring-boot:run
@@ -17,4 +17,9 @@ mvn install:install-file -DgroupId=org.hyperic -DartifactId=sigar -Dversion=1.6.
 <jvmArguments>
 -Djava.library.path=/Users/zhaopei/Downloads/hyperic-sigar-1.6.4/sigar-bin/lib
 </jvmArguments>
+```
+
+6.启动后输入下面地址可查询内存相关信息,全部是JSON格式
+```
+http://localhost:18948/memInfo
 ```
