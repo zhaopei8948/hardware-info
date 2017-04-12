@@ -1,0 +1,9 @@
+server:
+  port: 18948
+
+logging:
+  file: hardware-info.log
+  level:
+    online:
+      zhaopei:
+        hardwareinfo: TRACE
