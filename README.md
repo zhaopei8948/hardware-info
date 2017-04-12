@@ -23,3 +23,8 @@ mvn install:install-file -DgroupId=org.hyperic -DartifactId=sigar -Dversion=1.6.
 ```
 http://localhost:18948/memInfo
 ```
+
+7.打成jar包后，可以用下面命令启动
+```
+java -Djava.library.path=C:\zhaopei\hardware-info -Dfile.encoding=UTF-8 -jar hardware-info-1.0.jar
+```
